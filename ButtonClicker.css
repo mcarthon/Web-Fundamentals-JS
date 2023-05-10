@@ -27,7 +27,8 @@
 }
 
 .top-bar>button {
-    width: 6%;
+    padding: 12px;
+    width: 7%;
     height: 26px;
     margin-right: 30%;
     display: flex;

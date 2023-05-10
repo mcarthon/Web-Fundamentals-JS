@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ButtonClicker.css" </head>
+    <link rel="stylesheet" href="ButtonClicker.css"> 
+    <script src = "ButtonClicker.js"></script>
+</head>
 
 <body>
     <div class="top-container">
@@ -15,7 +17,7 @@
                 Dojonary
             </h1>
             <input type="search" placeholder="Search">
-            <button>
+            <button onclick="loginFunction(this)">
                 Login
             </button>
         </div>
@@ -34,7 +36,7 @@
                     ninjas
                 </em>
             </h3>
-            <button id="top-likes">
+            <button id="top-likes" onclick="alert('Ninja was liked')">
                 13 likes
             </button>
             <h3 id = "first-def">
@@ -47,7 +49,7 @@
             <h1>
                 Dojonary is <br>defined by YOU
             </h1>
-            <button>
+            <button onclick="addBlocker(this)">
                 Add Definition
             </button>
         </div>
