@@ -1,0 +1,119 @@
+.network-bar {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.network-bar>h1 {
+    margin-left: 10%;
+    color: white;
+}
+
+#your-feed {
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    width: 20%;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.big-container {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-container {
+    border: 1px solid black;
+    height: 300px;
+    width: 30%;
+    /* margin-top: 2.1%; */
+    margin-left: 13%;
+    padding: 1%;
+}
+
+.right-container {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 90%;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.first-friend {
+    border: 1px solid black;
+    height: 30%;
+    margin-bottom: 1%;
+    padding: 5%;
+}
+
+.second-friend {
+    border: 1px solid black;
+    height: 30%;
+    padding: 5%;
+}
+
+.third-friend {
+    border: 1px solid black;
+    height: 31.5%;
+    margin-top: 1%;
+    padding: 5%;
+}
+
+.top-first-friend, .top-second-friend, .top-third-friend {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.first-name, .second-name, .third-name {
+    flex: 2;
+    /* border: 1px solid black; */
+}
+
+.first-likes, .second-likes, .third-likes {
+    flex: 1.5;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
+.first-button, .second-button, .third-button {
+    flex: 1;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
+button {
+    box-shadow: 4px 4px black;
+    padding: 5% 10%;
+    background-color: rgba(255, 196, 0, 0.63);
+}
+
+.avatar-container, .add-avatar-link, .name {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-avatar-link > a {
+    margin-top: 15%;
+}
+
+img {
+    height: 100px;
+    margin-top: 10%;
+}
+
+.name > h1 {
+    margin-top: 10%;
+}
+
+a {
+    color: blue;
+}
