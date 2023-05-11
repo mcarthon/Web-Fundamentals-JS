@@ -65,24 +65,32 @@
     padding: 5%;
 }
 
-.top-first-friend, .top-second-friend, .top-third-friend {
+.top-first-friend,
+.top-second-friend,
+.top-third-friend {
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
 }
 
-.first-name, .second-name, .third-name {
+.first-name,
+.second-name,
+.third-name {
     flex: 2;
     /* border: 1px solid black; */
 }
 
-.first-likes, .second-likes, .third-likes {
+.first-likes,
+.second-likes,
+.third-likes {
     flex: 1.5;
     /* border: 1px solid black; */
     text-align: right;
 }
 
-.first-button, .second-button, .third-button {
+.first-button,
+.second-button,
+.third-button {
     flex: 1;
     /* border: 1px solid black; */
     text-align: right;
@@ -94,14 +102,16 @@ button {
     background-color: rgba(255, 196, 0, 0.63);
 }
 
-.avatar-container, .add-avatar-link, .name {
+.avatar-container,
+.add-avatar-link,
+.name {
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.add-avatar-link > a {
+.add-avatar-link>a {
     margin-top: 15%;
 }
 
@@ -110,7 +120,7 @@ img {
     margin-top: 10%;
 }
 
-.name > h1 {
+.name>h1 {
     margin-top: 10%;
 }
 

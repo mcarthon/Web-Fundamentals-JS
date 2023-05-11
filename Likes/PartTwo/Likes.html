@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Likes.css">
-    <script src="Likes.js"></script>
 </head>
 
 <body>
@@ -40,19 +39,19 @@
                             </h1>
                         </div>
                         <div class="first-likes">
-                            <h2>
-                                9 likes(s)
+                            <h2 id="like-count-0">
+                                9 like(s)
                             </h2>
                         </div>
                         <div class="first-button">
-                            <button onclick="addLikes()">
+                            <button onclick="addLikes(0)">
                                 Like
                             </button>
                         </div>
                     </div>
                     <div class="bot-first-friend">
                         <h3>
-                            I just set up this new discord bot, let me know what you all think. 
+                            I just set up this new discord bot, let me know what you all think.
                             <a href="">link</a>
                         </h3>
                     </div>
@@ -66,20 +65,20 @@
                             </h1>
                         </div>
                         <div class="second-likes">
-                            <h2>
-                                9 likes(s)
+                            <h2 id="like-count-1">
+                                9 like(s)
                             </h2>
                         </div>
                         <div class="second-button">
-                            <button onclick="addLikes()">
+                            <button onclick="addLikes(1)">
                                 Like
                             </button>
                         </div>
                     </div>
                     <div class="bot-second-friend">
                         <h3>
-                            Just finished my 
-                            <a href="">next comic</a>, 
+                            Just finished my
+                            <a href="">next comic</a>,
                             check it out.
                         </h3>
                     </div>
@@ -92,19 +91,19 @@
                             </h1>
                         </div>
                         <div class="third-likes">
-                            <h2>
-                                9 likes(s)
+                            <h2 id="like-count-2">
+                                9 like(s)
                             </h2>
                         </div>
                         <div class="third-button">
-                            <button onclick="addLikes()">
+                            <button onclick="addLikes(2)">
                                 Like
                             </button>
                         </div>
                     </div>
                     <div class="bot-third-friend">
                         <h3>
-                            I can't stop litening to the 
+                            I can't stop litening to the
                             <a href="">new album</a>.
                             Who else is liking it?
                         </h3>
@@ -114,6 +113,8 @@
         </div>
 
     </div>
+
+    <script src="Likes.js"></script>
 </body>
 
 </html>
