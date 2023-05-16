@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: black;
+    padding: 5%;
+}
+
+#display {
+    color: white;
+    text-align: right;
+}
+
+button:not(#equals) {
+    border-radius: 100%;
+    border: none;
+    color: white;
+}
+
+button {
+    margin: 2px;
+    background-color: gray;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.row-equal {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#equals {
+    border-radius: 20%;
+    border: none;
+    width: 100%;
+    background-color: lightgray;
+}
